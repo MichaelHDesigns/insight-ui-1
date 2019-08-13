@@ -1,0 +1,22 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "umbrud",
+    "insight-api",
+    "insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "umbrud": {
+      "connect": [{
+        "rpchost": "127.0.0.1",
+        "rpcport": 12354,
+        "rpcuser": "umbrurpc",
+        "rpcpassword": "password",
+        "zmqpubrawtx": "tcp://127.0.0.1:29998",
+        "zmqpubhashblock": "tcp://127.0.0.1:29998"
+      }]
+    }
+  }
+}
