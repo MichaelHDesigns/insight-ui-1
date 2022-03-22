@@ -43,7 +43,7 @@
     "front-end",
     "umbrucore"
   ],
-  "umbrucoreNode": "umbrucore-node",
+  "gltcoreNode": "gltcore-node",
   "scripts": {
     "build": "bower install && grunt compile",
     "watch": "grunt",
